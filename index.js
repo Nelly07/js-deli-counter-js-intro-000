@@ -3,6 +3,7 @@ function takeANumber(katzDeliLine,name){
   return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`;
 }
 
+
 function nowServing(katzDeliLine){
   if (katzDeliLine>[]){
     return `Currently serving ${katzDeliLine.shift()}.`
@@ -24,5 +25,4 @@ function currentLine(katzDeliLine){
   } else {
     return "The line is currently empty."
   }
-
 }
